@@ -1,8 +1,6 @@
 /** By default, this is a mobile breakpoint **/
 .container {
   margin-bottom: 1rem;
-  position: relative;
-  z-index: 2;
 }
 
 .title {
@@ -10,8 +8,9 @@
   font-weight: 800;
   color: var(--text-black);
 
-  /* 48px */
-  font-size: 3rem;
+  font-size: 3rem
+    /* 48px */
+  ;
   line-height: 1;
 }
 
@@ -26,10 +25,13 @@
 
 .subTitle {
   margin-top: 0.75rem;
-  /* 24px */
-  font-size: 1.5rem;
-  /* 32px */
-  line-height: 2rem;
+  font-size: 1.5rem
+    /* 24px */
+  ;
+  line-height: 2rem
+    /* 32px */
+  ;
+
   color: var(--text-white-100);
 }
 
@@ -44,18 +46,24 @@
   outline: 0;
   border: 0px;
 
-  /* 16px */
-  padding-top: 1rem;
-  /* 16px */
-  padding-bottom: 1rem;
-  /* 18px */
-  font-size: 1.125rem;
-  /* 28px */
-  line-height: 1.75rem;
-  /* 40px */
-  padding-left: 2.5rem;
-  /* 40px */
-  padding-right: 2.5rem;
+  padding-top: 1rem
+    /* 16px */
+  ;
+  padding-bottom: 1rem
+    /* 16px */
+  ;
+  font-size: 1.125rem
+    /* 18px */
+  ;
+  line-height: 1.75rem
+    /* 28px */
+  ;
+  padding-left: 2.5rem
+    /* 40px */
+  ;
+  padding-right: 2.5rem
+    /* 40px */
+  ;
 }
 
 .button:hover {
@@ -75,8 +83,9 @@
 /** sm breakpoint **/
 @media (min-width: 640px) {
   .title {
-    /* 48px */
-    font-size: 3rem;
+    font-size: 3rem
+      /* 48px */
+    ;
     line-height: 1;
   }
 
@@ -94,8 +103,9 @@
 /** md breakpoint **/
 @media (min-width: 768px) {
   .title {
-    /* 60px */
-    font-size: 3.75rem;
+    font-size: 3.75rem
+      /* 60px */
+    ;
     line-height: 1;
   }
 
@@ -104,21 +114,24 @@
   }
 
   .button {
-    /* 16px */
-    padding-top: 1rem;
-    /* 16px */
-    padding-bottom: 1rem;
-    /* 18px */
-    font-size: 1.125rem;
-    /* 28px */
-
-    line-height: 1.75rem;
-    /* 40px */
-
-    padding-left: 2.5rem;
-    /* 40px */
-
-    padding-right: 2.5rem;
+    padding-top: 1rem
+      /* 16px */
+    ;
+    padding-bottom: 1rem
+      /* 16px */
+    ;
+    font-size: 1.125rem
+      /* 18px */
+    ;
+    line-height: 1.75rem
+      /* 28px */
+    ;
+    padding-left: 2.5rem
+      /* 40px */
+    ;
+    padding-right: 2.5rem
+      /* 40px */
+    ;
   }
 }
 
@@ -129,9 +142,9 @@
   }
 
   .title {
-    /* 72px */
-
-    font-size: 4.5rem;
+    font-size: 4.5rem
+      /* 72px */
+    ;
     line-height: 1;
   }
 
